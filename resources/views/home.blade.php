@@ -13,7 +13,7 @@
                         G-Shoes
                     </h1>
                     <p class="subheading text-dark">
-                        G-Shoes buka yesus!
+                        G-Shoes means Ghaffar Shoes
                     </p>
                     <div class="btn-home mt-5">
                         <a href="#shop" class="btn btn-dark fw-bold py-2 px-3 px-lg-4 py-lg-3">Product</a>
