@@ -1,0 +1,444 @@
+.navbar {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+}
+
+.bi-wrench-adjustable-circle-fill {
+    color: #fcf8e8;
+}
+
+.logo-hagama {
+    font-family: "Aboreto", cursive;
+}
+
+/* HOME */
+
+.jumbotron {
+    background-color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10rem;
+}
+
+.heading {
+    color: #fcf8e8;
+}
+
+/* .banner {
+    background-color: #eae3d2;
+    height: 600px;
+} */
+
+@media screen and (min-width: 768px) {
+    .home .heading {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home img {
+        right: 0;
+        bottom: 0;
+    }
+    .home .img2 {
+        right: 0;
+    }
+}
+
+.shop {
+    font-family: "Montserrat", sans-serif;
+}
+
+.shop .heading {
+    color: #013f58;
+    font-weight: bolder;
+}
+
+.btn-detail {
+    background-color: #013f58;
+    color: #fcf8e8;
+}
+
+.btn-detail:hover {
+    color: black;
+}
+
+/* Footer  */
+/* .footer {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: #013f58;
+    color: #fcf8e8;
+} */
+footer {
+    bottom: 0;
+}
+
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    bottom: 0;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (max-height: 800px) {
+    footer {
+        position: static;
+    }
+}
+
+.footer .footer-left {
+    width: 30%;
+}
+
+.footer .footer-left img {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.footer .footer-left .credit-cards {
+    width: 100%;
+}
+
+.footer .footer-copyright {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.footer .footer-center {
+    margin-right: 100px;
+}
+
+.footer .footer-center i {
+    background-color: #013f58;
+    color: white;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-right {
+    width: 30%;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.footer .footer-about {
+    line-height: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.footer .footer-about span {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .footer-media {
+    margin-top: 25px;
+}
+
+.footer .footer-media a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #013f58;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    transition: 0.2s;
+}
+
+.footer .footer-media a:hover {
+    background-color: aqua;
+    transition: 0.2s;
+}
+
+@media (max-width: 880px) {
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    .footer .footer-center i {
+        margin-left: 0px;
+    }
+}
+
+/* card shop section */
+
+.shop-section {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+}
+
+.shop-page,
+.section-order {
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-order {
+    margin-top: 100px;
+}
+
+.row-judul {
+    margin-bottom: 50px;
+}
+
+.unit-box {
+    position: relative;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 500px;
+    transform-style: preserve-3d;
+}
+
+.unit-name {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0;
+    transform: translate3d(0, 0, 50px);
+    transition: 0.5s;
+}
+
+.unit-price {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.unit-box:hover .unit-name {
+    top: 60px;
+    opacity: 1;
+}
+.unit-box:hover .unit-price {
+    bottom: 20px;
+    opacity: 1;
+}
+
+.unit-detail-button {
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+    transform: translate3d(-50%, 0, 50px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.unit-box:hover .unit-detail-button {
+    opacity: 1;
+    bottom: 5px;
+}
+
+.unit-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 100px);
+    max-width: 350px;
+    z-index: 2;
+    transition: 0.6s;
+}
+
+.unit-box:hover .unit-img {
+    transform: translate3d(-50%, -52%, 100px) scale(1.2);
+}
+
+.service-page {
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.service-page .title {
+    color: #013f58;
+    font-weight: bold;
+}
+
+/* .service-unlogin {
+    height: 200px;
+} */
+
+.btn-login {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+.form-service {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.btn-loginn {
+    background-color: #000000;
+    border: 1px solid black;
+}
+
+.login-pages {
+    margin-top: 150px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.register-pages {
+    margin-top: 150px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header .title-barang {
+    color: #013f58;
+}
+
+.header-barang {
+    text-align: center;
+}
+
+.header-body {
+    background-color: #e8eef0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container-form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-pay {
+    background-color: #013f58;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+}
+
+.btn-back {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    margin-top: 100px;
+}
+
+.btn-pay:hover {
+    color: black;
+}
+
+.container-logo {
+    margin-top: 100px;
+}
+
+.container-pay {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.container-back {
+    display: flex;
+    justify-content: center;
+}
+
+.body-pay {
+    background-color: aliceblue;
+}
+
+.modal-header {
+    background-color: #013f58;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.modal-title,
+.modal-body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-submit-modal,
+.btn-pop-modal {
+    background-color: #013f58;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-pop-modal {
+    width: 500px;
+}
+
+.container-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
