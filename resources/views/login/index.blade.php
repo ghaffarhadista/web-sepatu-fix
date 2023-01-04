@@ -41,7 +41,6 @@
                   <button class="w-100 btn btn-lg btn-outline-light  mb-2 btn-loginn" type="submit">Login</button>
                 </form>
                 <small>Belum Punya Akun?  <a href="/register" class="text-decoration-none fw-bold">Daftar!</a></small>
-                <p class="mt-5 mb-3 text-muted text-center">&copy; Hagama Putra Mandiri</p>
               </main>
         </div>
     </div>
